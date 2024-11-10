@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sudoku Game</h1>
+
+    <!-- Difficulty Level Selection -->
+    <label for="difficultyLevel">Select Difficulty Level:</label>
+    <select id="difficultyLevel">
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+    </select>
+
+    <!-- Sudoku Grid for Player to Play -->
+    <div class="sudoku-grid" id="sudokuGrid"></div>
+
+    <!-- Show Solution Button -->
+    <button id="stopButton">Show Solution</button>
+
+    <!-- Solution Display -->
+    <h2>Solution:</h2>
+    <div class="sudoku-grid" id="solutionGrid"></div>
+
+    <script src="sudoku.js"></script>
+</body>
+</html>
